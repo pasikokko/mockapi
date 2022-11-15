@@ -27,7 +27,7 @@
     "isPublic": {
       "boolean": {}
     },
-    "belongsTo": "Company",
+    "belongsTo": "Company"
   },
   "Company": {
     "name": {
@@ -40,5 +40,4 @@
     },
     "hasMany": "Employee"
   }
-  
 }
