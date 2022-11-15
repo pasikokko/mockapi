@@ -1,5 +1,5 @@
 {
-  "Employee": {
+  "User": {
     "name": {
       "string": {}
     },
@@ -12,30 +12,11 @@
         "watching Netflix"
       ]
     },
-    "email": {
-      "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
-    },
-    "color": {
-      "regexp": "#[0-9A-F]{6}"
-    },
     "age": {
       "int": {
-        "min": 21,
-        "max": 100
+        "min": 18,
+        "max": 65
       }
-    },
-    "isPublic": {
-      "boolean": {}
-    }
-  },
-  "Company": {
-    "name": {
-      "string": [
-        "Google",
-        "Netflix",
-        "Amazon",
-        "Facebook"
-      ]
     }
   }
 }
