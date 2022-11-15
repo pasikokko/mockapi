@@ -1,5 +1,5 @@
 {
-  "User": {
+  "Employee": {
     "name": {
       "string": {}
     },
@@ -26,6 +26,19 @@
     },
     "isPublic": {
       "boolean": {}
-    }
+    },
+    "belongsTo": "Company",
+  },
+  "Company": {
+    "name": {
+      "string": [
+        "Google",
+        "Netflix",
+        "Amazon",
+        "Facebook"
+      ]
+    },
+    "hasMany": "Employee"
   }
+  
 }
