@@ -1,7 +1,7 @@
 {
   "User": {
     "name": {
-      "loremWords": { "minLength": 2, "maxLength": 3 }
+      "loremWords": { "minLength": 5, "maxLength": 18 }
     },
     "avatarUrl": {
       "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
