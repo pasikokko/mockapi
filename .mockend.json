@@ -26,8 +26,7 @@
     },
     "isPublic": {
       "boolean": {}
-    },
-    "belongsTo": "Company"
+    }
   },
   "Company": {
     "name": {
@@ -37,7 +36,6 @@
         "Amazon",
         "Facebook"
       ]
-    },
-    "hasMany": "Employee"
+    }
   }
 }
